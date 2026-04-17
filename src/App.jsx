@@ -9,14 +9,12 @@ function App() {
       { "id": 4, "value": "New Bag" }
   ] 
   return (
-    <>
     <div>
       <header className="website-header">
-        <h2>Wish List</h2>
+        <h1>Wish List</h1>
       </header>
       <List items={wishListItems}/>
     </div>
-    </>
   )
 }
 

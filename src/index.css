@@ -3,31 +3,11 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-.website-header {
-    background-color: rgba(58, 58, 122, 0.471);
-    padding: 2px 10px;
-}
-
-header h2 {
-    font-size: 85px;
-    color: rgb(10, 10, 66)
+    background-color: rgb(223, 215, 207);
 }
 
 main {
     line-height: 1.6;
     color: rgb(4, 4, 79);
     padding: 10px;
-}
-
-main h4 {
-    font-size: 25px;
-}
-
-li {
-    list-style-type: none;
-    font-size: 20px;
-    margin: 0 auto;
 }

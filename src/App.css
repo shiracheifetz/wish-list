@@ -1,2 +1,21 @@
+.website-header {
+    background-color: rgba(58, 58, 122, 0.471);
+    padding: 2px 10px;
+    font-size: 45px;
+    color: rgb(10, 10, 66)
+}
 
+.my-wish-list {
+    font-size: 25px;
+}
+
+.wish-list ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.wish-list li {
+    list-style-type: none;
+    font-size: 20px;
+}
 
