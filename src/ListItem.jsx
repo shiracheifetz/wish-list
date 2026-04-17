@@ -1,5 +1,7 @@
-export function ListItem(props) {
+function ListItem(props) {
     return(
-        <li key={props.id}>props.value</li>
+        <li key={props.id}>{props.listItem.value}</li>
     )
 }
+
+export default ListItem

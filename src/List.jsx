@@ -1,13 +1,12 @@
-import { ListItem } from './ListItem';
+import ListItem from './ListItem';
 
-export function List(props) {
-    const firstItem = props.items[0];
+function List(props) {
     return(
         <main>
-            <h4>My Wish List</h4>
+            <h4>My Wish List:</h4>
             <div className="wish-list">
                 <ul>
-                    {props.items.forEach((item) => (
+                    {props.items.map((item) => (
                         <ListItem listItem={item}/>
                     ))}
                 </ul>
@@ -16,4 +15,6 @@ export function List(props) {
         </main>
     )
 }
+
+export default List
 

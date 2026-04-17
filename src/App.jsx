@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { List } from './List';
+import List from './List';
 
 function App() {
   const wishListItems = [ 
       { "id": 1, "value": "New Laptop" }, 
-      { "id": 2, "value": "Headphones" } 
+      { "id": 2, "value": "Headphones" }, 
+      { "id": 3, "value": "Camera" }, 
+      { "id": 4, "value": "New Bag" }
   ] 
   return (
     <>
